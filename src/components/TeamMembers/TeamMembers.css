@@ -1,0 +1,17 @@
+.team-members-section-wrapper{ 
+    min-height: 110vh;
+    background: var(--dark-blue); 
+    padding: 3rem 3rem;
+}
+
+.gradient-blur-background-orange-purple-TeamMembers{ 
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, var(--darkpurple) 50% , var(--orange) 50%);
+    filter: blur(160px);
+    z-index: 1;
+    position: absolute; 
+    transform: translate(-80%, 20%);
+
+}

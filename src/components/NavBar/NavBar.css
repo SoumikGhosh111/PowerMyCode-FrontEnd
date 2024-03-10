@@ -37,9 +37,9 @@ ul li {
     
     position: relative;
     border-radius: 25px;
-    transition: all 0.4s ease-in-out;
+    /* transition: all 0.4s ease-in-out; */
 }
-ul li a{ 
+ul a{ 
     text-decoration: none;
     color: var(--whiteish);
     transition: all 0.4s ease-in-out;
@@ -57,9 +57,9 @@ ul li a{
     transition: all 0.3s ease-in-out;
 
 }
-ul li:hover a{ 
+ul a:hover{ 
     color: var(--black);
 }
-ul li:hover .expand-class{ 
+ul a:hover .expand-class{ 
     transform: scale(1);
 }

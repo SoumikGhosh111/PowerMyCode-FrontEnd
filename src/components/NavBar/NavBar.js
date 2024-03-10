@@ -1,4 +1,4 @@
-import React from 'react'; 
+import React from 'react';
 import "./NavBar.css"
 
 function NavBar() {
@@ -6,22 +6,31 @@ function NavBar() {
     <div className='nav-bar-wrapper'>
       <div className='nav-bar'>
         <ul>
-          <li>
-            <a href='#hero-section'>Home</a>
-            <div className='expand-class'></div>
-          </li>
-          <li>
+          <a href='#hero-section'>
+            <li>
+              Home
+              <div className='expand-class'></div>
+            </li>
+          </a>
+         <a href='#'>
+         <li>
             Projects
             <div className='expand-class'></div>
           </li>
-          <li>
-            <a href='#about-us'>About Us</a>
-            <div className='expand-class'></div>
-          </li>
+         </a>
+          <a href='#about-us'>
+            <li>
+              About Us
+              <div className='expand-class'></div>
+            </li>
+          </a>
+          <a href='#'>
           <li>
             Contact Us
             <div className='expand-class'></div>
           </li>
+          </a>
+          
         </ul>
       </div>
     </div>

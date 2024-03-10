@@ -8,15 +8,19 @@ function NavBar() {
         <ul>
           <li>
             Home
+            <div className='expand-class'></div>
           </li>
           <li>
             Projects
+            <div className='expand-class'></div>
           </li>
           <li>
             About Us
+            <div className='expand-class'></div>
           </li>
           <li>
             Contact Us
+            <div className='expand-class'></div>
           </li>
         </ul>
       </div>

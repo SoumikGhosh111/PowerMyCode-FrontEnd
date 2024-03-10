@@ -10,7 +10,7 @@ function AboutUs() {
   return (
     <motion.div className='about-us-section-wrapper'
     >
-      <div className='values-culture'>
+      <div className='values-culture' id='about-us'>
         <span className='green-dot'><span className='beating'></span></span>
         <span className='values-culture-text'>Our Values & cultures</span>
         <span className='green-dot'><span className='beating'></span></span>

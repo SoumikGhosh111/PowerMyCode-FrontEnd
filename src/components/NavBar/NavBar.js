@@ -7,7 +7,7 @@ function NavBar() {
       <div className='nav-bar'>
         <ul>
           <li>
-            Home
+            <a href='#hero-section'>Home</a>
             <div className='expand-class'></div>
           </li>
           <li>
@@ -15,7 +15,7 @@ function NavBar() {
             <div className='expand-class'></div>
           </li>
           <li>
-            About Us
+            <a href='#about-us'>About Us</a>
             <div className='expand-class'></div>
           </li>
           <li>

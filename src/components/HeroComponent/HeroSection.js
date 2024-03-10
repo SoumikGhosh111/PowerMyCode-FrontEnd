@@ -38,7 +38,7 @@ function HeroSection() {
   const fontSize = useMemo (() => Math.max(130, 150 - scroll / 15), [scroll]);  
   console.log(showCanvas); 
   return (
-    <div className='hero-section'>
+    <div className='hero-section' id='hero-section'>
         <canvas ref={canvasRef} id='canvas3d' />
         <h1 style={{fontSize: `${fontSize}px`}}>PowerMyCode</h1>
 

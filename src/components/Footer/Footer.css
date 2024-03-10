@@ -30,7 +30,6 @@
     text-decoration: none;
     color: var(--whiteish);
     transition: all 0.3s ease;
-    border: 1px solid red;
 }
 .usefull-links-items a:hover{ 
     color: var(--green);

@@ -1,6 +1,7 @@
 .about-us-section-wrapper {
-    background: var(--black);
+    background-color: var(--dark-blue);
     padding: 3rem 3rem;
+    
 }
 
 .values-culture {
@@ -36,6 +37,7 @@
 .about-us-information h1{ 
     font-size: 100px;
     color: var(--whiteish);
+    text-shadow: 1px 1px 150px var(--whiteish) , 0 0 19px var(--green);
 }
 .about-us-information-text{ 
     font-size: 25px;

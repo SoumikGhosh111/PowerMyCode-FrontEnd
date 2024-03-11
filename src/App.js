@@ -4,7 +4,7 @@ import MouseFollower from "mouse-follower";
 import gsap from "gsap";
 import "./App.css"; 
 import FooterSection from "./components/Footer/FooterSection";
-import NavBar from "./components/NavBar/NavBar";
+// import NavBar from "./components/NavBar/NavBar";
 import HomePage from "./pages/HomePage";
 
 function App() {
@@ -55,7 +55,7 @@ function App() {
         animate ={{x: pointer.x-8, y: pointer.y-8} }
         transition={{type: "tween", duration: 0.01}}
       ></motion.div> */}
-      <NavBar /> 
+      {/* <NavBar />  */}
       <HomePage /> 
       <FooterSection /> 
     </div>

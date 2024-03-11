@@ -1,8 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Saira", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--dark-blue);
@@ -21,16 +20,18 @@ html{
   --orange: #f7af29; 
   --purple: #911791;
   --blue: #092687;  
-  --whiteish: #c6c8d6;
+  --whiteish: #efeff4;
   --green: #06D889;  
   --nav-bar: #1414144a; 
   --lightgrey: #666566; 
   --darkgrey: #1a1a1a;
   --darkgreen: #008600; 
   --darkpurple: rgb(109, 0, 109); 
+  --contact-form-body: #161a1e; 
+  --contact-form-input: #252e2f; 
 }
 ::selection{ 
-  color: var(--whiteish); 
+  color: var(--black); 
   background: var(--darkgreen);
 }
 ::-webkit-scrollbar{ 

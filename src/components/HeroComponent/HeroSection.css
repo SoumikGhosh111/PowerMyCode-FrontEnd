@@ -1,9 +1,11 @@
 .hero-section{ 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:flex-start;
     min-height: 800px;
+    flex-direction: column;
     
+
 }
 .hero-section h1{ 
     /* -webkit-text-stroke: 1px var(--green); */

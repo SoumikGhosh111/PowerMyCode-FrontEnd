@@ -1,0 +1,120 @@
+
+.contact-section-wrapper{ 
+    min-height: 100vh;
+    padding: 1rem 3rem;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.conatac-section-address{ 
+    width: 45%;
+    /* border: 1px solid red; */
+
+
+}
+.contact-section-texts-titles{ 
+    margin-bottom: 2rem;
+}
+.contact-section-texts-titles span{ 
+    font-size: 25px;
+}
+.contact-section-texts-titles h3{ 
+    color: var(--green);
+}
+.contact-section-texts-titles h1{ 
+    font-size: 50px;
+}
+.contact-section-address-items{ 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* min-height: 40px; */
+    margin: 3rem 0rem;
+
+}
+.address-text{ 
+    font-size: 18px;
+}
+.address-text a{ 
+    text-decoration: none;
+    color: var(--whiteish);
+    transition: all 0.3s ease-in-out;
+}
+.logo-icn{ 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    border: 1px solid var(--green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--green);
+    margin: 0rem 1rem;
+}
+
+.address-text a:hover{ 
+    color: var(--green);
+}
+
+.address-text a:hover .logo-icn{ 
+    color: var(--dark-blue);
+    background-color: var(--green);
+}
+.contact-section-social-links h3{ 
+    font-size: 25px;
+    margin: 0;
+}
+.contact-section-social-links span{ 
+    font-size: 18px;
+}
+.social-media-liks{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 30%;
+    margin-top: 2rem;
+}
+.social-media-links-item a{ 
+    text-decoration: none;
+    color: var(--green);
+}
+
+
+/* Form  */
+.contact-with-us-form{ 
+    background-color: var(--contact-form-body);
+    width: 50%;
+    border-radius: 10px;
+}
+.contact-with-us-form form{ 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.contact-with-us-form input{ 
+    background-color: var(--contact-form-input);
+    width: 90%;
+    color: var(--whiteish);
+    margin: 1rem 0rem;
+    padding: 0.5rem;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px; 
+
+}
+.contact-with-us-form input:focus{ 
+    outline: none;
+}
+
+
+
+
+
+

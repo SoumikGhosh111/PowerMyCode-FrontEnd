@@ -1,6 +1,5 @@
 .footer-section-wrapper{ 
     min-height: 100vh;
-    background: var(--dark-blue);
     display: flex;
     justify-content: center;
     align-items: center;

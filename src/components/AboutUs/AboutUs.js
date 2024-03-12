@@ -9,7 +9,7 @@ function AboutUs() {
   const isInView =  useInView(refIS)
  
   return (
-    <motion.div className='about-us-section-wrapper'>
+    <motion.div className='about-us-section-wrapper' id='about-us'>
       <MarqueeRightToLeft text={"Values and Culture"} />
       <motion.div className='about-us-information'
         ref={refIS}

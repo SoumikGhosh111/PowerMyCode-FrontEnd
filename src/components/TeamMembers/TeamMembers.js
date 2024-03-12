@@ -15,25 +15,25 @@ function TeamMembers() {
         <div className='team-members-lsit'>
           <div className='team-member-item' data-item="CEO & Founder">
           </div>
-          <div className='member-name'>Arun Kuman</div>
+          <div className='member-name'>Arun Rachori</div>
         </div>
 
         <div className='team-members-lsit'>
           <div className='team-member-item' data-item="Marketing Lead">
           </div>
-          <div className='member-name'>Barry</div>
+          <div className='member-name'>Abhishek Rachori</div>
         </div>
 
         <div className='team-members-lsit'>
           <div className='team-member-item' data-item="Senior Frontend Developer">
           </div>
-          <div className='member-name'>Somnath name</div>
+          <div className='member-name'>Somnath Mistry</div>
         </div>
 
         <div className='team-members-lsit'>
           <div className='team-member-item' data-item="Senior Backend Developer">
           </div>
-          <div className='member-name'>Chanchal name</div>
+          <div className='member-name'>Chanchal Ghosh</div>
         </div>
 
         <div className='team-members-lsit'>

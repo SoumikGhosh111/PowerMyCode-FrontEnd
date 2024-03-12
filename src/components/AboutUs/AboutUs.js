@@ -2,19 +2,15 @@ import React, {useRef} from 'react';
 import "./AboutUs.css"
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
+import MarqueeRightToLeft from '../../common-components/MarqueeComp/MarqueeRightToLeft';
 
 function AboutUs() {
   const refIS = useRef(null); 
   const isInView =  useInView(refIS)
   // console.log(ref); 
   return (
-    <motion.div className='about-us-section-wrapper'
-    >
-      <div className='values-culture' id='about-us'>
-        <span className='green-dot'><span className='beating'></span></span>
-        <span className='values-culture-text'>Our Values & cultures</span>
-        <span className='green-dot'><span className='beating'></span></span>
-      </div>
+    <motion.div className='about-us-section-wrapper'>
+      <MarqueeRightToLeft text={"Values and Culture"} />
       <motion.div className='about-us-information'
         ref={refIS}
         initial = {{opacity: 0, x: -50}}

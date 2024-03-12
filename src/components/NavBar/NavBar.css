@@ -1,12 +1,17 @@
 .nav-bar-wrapper{ 
-    width: 100%;
+    /* width: 100%;
     position:fixed;
     bottom: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
     /* background: #000; */
+    z-index: 10; 
+    width: fit-content;
+    position:fixed;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%);
 }
 .nav-bar{ 
     border-radius: 50px;
@@ -29,20 +34,22 @@ ul{
     justify-content: center;
     align-items: center;
     border-radius: 25px;
+    gap: 3rem;
+    padding: 0.5rem 1rem;
 }
 ul li { 
     padding: 0.5rem 1rem;
     cursor: pointer;
-    margin: 0.5rem 2rem;
-    
     position: relative;
     border-radius: 25px;
+    
     /* transition: all 0.4s ease-in-out; */
 }
 ul a{ 
     text-decoration: none;
     color: var(--whiteish);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease;
+    font-weight: 500;
 }
 .expand-class{ 
     width: 100%;
@@ -54,7 +61,7 @@ ul a{
     left: 0;
     z-index: -1;
     border-radius: 25px;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease;
 
 }
 ul a:hover{ 

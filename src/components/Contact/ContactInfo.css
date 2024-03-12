@@ -128,6 +128,8 @@
     width: 100%;
     height: 1px;
     background-color: var(--whiteish);
+    margin: 2rem 0rem;
+    background-color: var(--lightgrey);
 }
 .form-items { 
    
@@ -135,17 +137,81 @@
    
 }
 .form-items label{ 
-    /* margin: 2rem */
     margin: 0rem 2rem;
 }
 
 .form textarea{ 
     background-color: var(--contact-form-input);
     border: none;
-    width: 90%;
+    width: 88%; 
     color: var(--whiteish);
+    resize: vertical;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.form textarea:focus{ 
+    outline: none;
+}
+.form-submit-button{ 
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+.form-submit-button button{ 
+    margin-left: 1.7rem;
+    cursor: pointer;
+    border: none;
+    width: 9rem; 
+    height: 3rem;
+    font-size: 18px;
+    font-family: "Saira", sans-serif;
+    font-weight: 600;
+    background-color: var(--green);
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden; 
+    z-index: 3;
+}
+.form-submit-button button::before{ 
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background-color: var(--black);
+    transition: all 0.4s ease;
+    z-index: 1;
+    color: white;
+    /* transform: translate(-100%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
 }
 
+.form-submit-button button::after{ 
+    content: 'Submit';
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition: all 0.5s ease;
+}
 
+.form-submit-button button:hover{ 
+    color: var(--white);
+}
 
-
+.form-submit-button button:hover::before{ 
+    /* transform: translate(0); */
+    width: 100%;
+    
+}

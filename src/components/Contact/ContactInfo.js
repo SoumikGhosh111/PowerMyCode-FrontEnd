@@ -20,7 +20,7 @@ function ContactInfo() {
         </div>
         <div className='contact-section-address-items'>
           <div className='logo-icn'><LocationOnIcon /></div>
-          <div className='address-text'>2nd Cross Road, Rajiv Gandhi Nagar Sector-7, HSR Layout <br/> Bangalore-560102</div>
+          <div className='address-text'>2nd Cross Road, Rajiv Gandhi Nagar Sector-7, HSR Layout <br /> Bangalore-560102</div>
         </div>
 
         <div className='contact-section-address-items'>
@@ -83,10 +83,14 @@ function ContactInfo() {
           <div className='form-items'>
             <label htmlFor='message'>Message</label>
           </div>
-          <textarea rows={8} ></textarea>
+          <textarea rows={8}></textarea>
 
           <div className='form-submit-button'>
-          <button>Submit</button>
+            <button>
+             
+              {/* <div className='contact-form-submit-button-span'>Submit1</div> */}
+              {/* <div className='contact-form-button-bg'></div> */}
+            </button>
           </div>
         </form>
       </div>

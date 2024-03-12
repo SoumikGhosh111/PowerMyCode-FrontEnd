@@ -1,0 +1,70 @@
+.texts-right-left{ 
+    overflow: hidden;
+    white-space: nowrap; 
+    
+    
+}
+.texts-right-left:hover .texts-slide-right-left { 
+    animation-play-state: paused;
+}
+.texts-slide-right-left{ 
+    display: inline-block;   
+    animation: 50s slide-right-left infinite linear; 
+}
+.texts-slide-items-right-left{ 
+    margin: 1rem 2rem; 
+    font-size: 40px;
+    font-weight: 700;
+   color: var(--green);
+}
+
+@keyframes slide-right-left {
+    from{ 
+        transform: translateX(0);
+    }
+    to{ 
+        transform: translateX(-100%);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Left to right */
+
+.texts-left-right{ 
+    overflow: hidden;
+    white-space: nowrap; 
+}
+.texts-left-right:hover .texts-slide-left-right{ 
+    animation-play-state: paused;
+}
+.texts-slide-left-right{ 
+    display: inline-block;   
+    animation: 50s slide-left-right infinite linear; 
+}
+.texts-slide-items-left-right{ 
+    margin: 1rem 2rem; 
+    font-size: 40px;
+    font-weight: 700;
+   color: var(--green);
+}
+
+@keyframes slide-left-right {
+    from{ 
+        transform: translateX(-100%);
+    }
+    to{ 
+        transform: translateX(0);
+    }
+}

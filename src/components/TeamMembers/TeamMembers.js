@@ -1,14 +1,16 @@
 import React from 'react';
 import "./TeamMembers.css"
+import MarqueeLeftToRight from '../../common-components/MarqueeComp/MarqueeLeftToRight';
 
 function TeamMembers() {
   return (
     <div className='team-members-section-wrapper'>
-        <div className='values-culture'>
+        {/* <div className='values-culture'>
           <span className='green-dot'><span className='beating'></span></span>
           <span className='values-culture-text'>Our Team Members</span>
           <span className='green-dot'><span className='beating'></span></span>
-        </div>
+        </div> */}
+        <MarqueeLeftToRight text={"Team Members"} />
       <div className='team-members'>
         <div className='team-members-lsit'>
           <div className='team-member-item' data-item="CEO & Founder">

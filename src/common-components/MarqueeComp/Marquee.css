@@ -1,7 +1,6 @@
 .texts-right-left{ 
     overflow: hidden;
-    white-space: nowrap; 
-    
+    white-space: nowrap;
     
 }
 .texts-right-left:hover .texts-slide-right-left { 

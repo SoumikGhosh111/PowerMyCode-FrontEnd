@@ -7,7 +7,7 @@ import MarqueeRightToLeft from '../../common-components/MarqueeComp/MarqueeRight
 function AboutUs() {
   const refIS = useRef(null); 
   const isInView =  useInView(refIS)
-  // console.log(ref); 
+ 
   return (
     <motion.div className='about-us-section-wrapper'>
       <MarqueeRightToLeft text={"Values and Culture"} />
@@ -47,6 +47,8 @@ function AboutUs() {
           <span className='about-us-information-text'>We believe in the transformative power of technology and are dedicated to <br/> delivering efficient, reliable, and cutting-edge software solutions that exceed your <br/> expectations. With a focus on innovation, quality, and scalability, we are your  <br/>partners in shaping the future of software development.</span>
         </div>
       </motion.div>
+      <div className='about-us-bg-1'></div>
+      <div className='about-us-bg-2'></div>
     </motion.div>
   )
 

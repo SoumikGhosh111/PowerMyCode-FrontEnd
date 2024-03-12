@@ -4,5 +4,5 @@
     display: none;
 }   
 .mf-cursor{ 
-    background-color: red; 
+   color: var(--cursor-color);
 }

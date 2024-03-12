@@ -46,7 +46,8 @@ function App() {
         container: document.querySelector(".App-body"),
         speed: 0.3,
         className: 'mf-cursor',
-      });
+      }); 
+      
     } , [])
   
   return (

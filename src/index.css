@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
   margin: 0;
   font-family: "Saira", sans-serif;
@@ -29,6 +30,7 @@ html{
   --darkpurple: rgb(109, 0, 109); 
   --contact-form-body: #161a1e; 
   --contact-form-input: #252e2f; 
+  --cursor-color: #06D889; 
 }
 ::selection{ 
   color: var(--black); 

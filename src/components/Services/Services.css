@@ -11,6 +11,12 @@
 .services-section-text-info{ 
     width: 70%;
 }
+.services-section-text-info h1{ 
+    font-size: 50px;
+}
+.services-section-text-info span{ 
+    font-size: 25px;
+}
 .left-right-carousil-button{ 
     width: 20%;
     display: flex;

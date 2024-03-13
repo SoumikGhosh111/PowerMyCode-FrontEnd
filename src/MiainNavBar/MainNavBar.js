@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'; 
 import "./MainNavBar.css"; 
 import { gsap } from 'gsap';
+import powerMyCodeLogoImg from "../assets/PowerMyCodeLogo.svg"; 
 
 function MainNavBar() {
     const [tl, setTl] = useState(null);
@@ -19,7 +20,7 @@ function MainNavBar() {
           .to('nav', { height: '100vh' }, '-=.1')
           .to('nav ul li a', { opacity: 1, pointerEvents: 'all', stagger: .2 }, '-=.8')
           .to('.close', { opacity: 1, pointerEvents: 'all' }, "-=.8")
-          .to('nav h2', { opacity: 1 }, '-=1');
+          .to('nav img', { opacity: 1 }, '-=1');
       }
     };
 
@@ -49,7 +50,9 @@ function MainNavBar() {
         </div>
 
         <nav>
-		<h2 >PowerMyCode</h2>
+		{/* <h2 data-cursor-text= "PowerMyCode"></h2> */}
+    <img  src={powerMyCodeLogoImg}/>
+    
 		<div class="close">
 			<div></div>
 		</div>

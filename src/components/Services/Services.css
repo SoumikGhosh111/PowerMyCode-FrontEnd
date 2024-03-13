@@ -1,5 +1,4 @@
 .services-section-wrapper{ 
-    min-height: 100vh;
     /* background: var(--dark-blue); */
     padding: 1rem 3rem;
 }
@@ -36,4 +35,10 @@
 .left-right-carousil-button button:hover{ 
     color: var(--dark-blue);
     background-color: var(--green);
+}
+
+.services-section-carousil-container-2{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -6,6 +6,10 @@ import "./App.css";
 import FooterSection from "./components/Footer/FooterSection";
 // import NavBar from "./components/NavBar/NavBar";
 import HomePage from "./pages/HomePage";
+import ProjectsPage from "./pages/ProjectsPage";
+import BloggingPage from "./pages/BloggingPage";
+import MainNavBar from "./MiainNavBar/MainNavBar";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"; 
 
 function App() {
   // const [pointer, setPointer] = useState({x: 0, y: 0}); 
@@ -52,12 +56,15 @@ function App() {
   
   return (
     <div className="App-body">
-      {/* <motion.div className="mouse-movement-pointer d-none"
-        animate ={{x: pointer.x-8, y: pointer.y-8} }
-        transition={{type: "tween", duration: 0.01}}
-      ></motion.div> */}
-      {/* <NavBar />  */}
-      <HomePage /> 
+      <MainNavBar />
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage /> }/>
+          <Route path="/projects" element={<ProjectsPage /> }/>
+          <Route path="/blogs" element={<BloggingPage /> }/>
+        </Routes>
+      </Router>
+      
       <FooterSection /> 
     </div>
   );

@@ -1,0 +1,83 @@
+.infinite-carousil-wrapper{ 
+    width: 100%;
+    position: relative;
+    margin-top: 2rem;
+}
+.infinite-carousil-wrapper .carousil{ 
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 3) - 12px);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    border-radius: 8px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.carousil :where(.infinite-carousil-cards){ 
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.infinite-carousil-cards{ 
+    height: 400px;
+    list-style: none;
+    background: linear-gradient(-45deg, #212725, #1c1c1c);
+    cursor: pointer;
+    flex-direction: column;
+    border-radius: 8px;
+
+
+}
+.logo-carousil{ 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+
+}
+.carousil-content{ 
+    width: 80%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.carousil-content a{ 
+    text-decoration: none;
+    color: var(--whiteish);
+    transition: all 0.3s ease;
+}
+
+.carousil-content a:hover{ 
+    color: var(--green);
+}
+.carousil-content h1, p { 
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.carousil-content ul{ 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    list-style-type: disc; 
+    /* padding: ;  */
+    padding: 0rem 1rem;
+    margin-top: 2rem ;
+}
+.carousil-content ul li{ 
+    padding: 0;
+    margin-top: 0;
+}
+.carousil-content ul li::marker{ 
+    color: var(--green);
+    width: 20px;
+    height: 20px;
+}
+

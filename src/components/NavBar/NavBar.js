@@ -12,9 +12,9 @@ function NavBar() {
               <div className='expand-class'></div>
             </li>
           </a>
-         <a href='#'>
+         <a href='#services'>
          <li>
-            Projects
+            Services
             <div className='expand-class'></div>
           </li>
          </a>
@@ -24,7 +24,7 @@ function NavBar() {
               <div className='expand-class'></div>
             </li>
           </a>
-          <a href='#'>
+          <a href='#contact-us'>
           <li>
             Contact Us
             <div className='expand-class'></div>

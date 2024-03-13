@@ -24,6 +24,7 @@ html{
   --whiteish: #efeff4;
   --green: #06D889;  
   --nav-bar: #1414144a; 
+  --main-nav-bar: #14141492; 
   --lightgrey: #666566; 
   --darkgrey: #1a1a1a;
   --darkgreen: #008600; 
@@ -34,12 +35,23 @@ html{
 }
 ::selection{ 
   color: var(--black); 
-  background: var(--darkgreen);
-}
-::-webkit-scrollbar{ 
-  display: none;
+  background: var(--green);
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--green); 
+  border-radius: 3px;
+}
+

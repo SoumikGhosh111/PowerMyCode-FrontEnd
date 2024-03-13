@@ -11,7 +11,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function ContactInfo() {
   return (
-    <div className='contact-section-wrapper'>
+    <div className='contact-section-wrapper'id='contact-us'>
       <div className='conatac-section-address'>
         <div className='contact-section-texts-titles'>
           <h3>CONTACT WITH US</h3>

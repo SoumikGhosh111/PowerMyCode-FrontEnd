@@ -67,3 +67,75 @@
         transform: translateX(0);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+/* Image Marqueee */
+.marquee-images-wrapper{ 
+    width: 100%;
+    height: 200px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 2rem 0rem;
+    
+}
+
+.marquee-images-header{ 
+    width: 20%;
+    height: 100%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    /* transform: translate(); */
+    z-index: 2;
+    padding: 1rem;
+}
+.marquee-images-header .ver-line{ 
+    width: 40px ;
+    height: 100%;
+    border: 1px solid transparent;
+
+    border-right-color: var(--whiteish);
+    /* transform: rotate(30deg) scale(1.3); */
+    z-index: 1;
+    /* display: none; */
+
+}
+.marquee-images-body{ 
+    width: 80%;
+    height: 100%;
+
+}
+
+
+.marquee-images-body{ 
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marquee-images-body-slide{ 
+    display: inline-block;   
+    animation: 20s slide-right-left infinite linear; 
+    z-index: 0;
+}
+
+.mrqee-images-body-items{ 
+    margin: 1rem 2rem; 
+    font-size: 40px;
+    font-weight: 700;
+   color: var(--green);
+   z-index: -1;
+}
+

@@ -46,7 +46,7 @@ function MainNavBar() {
   return (
     <div className='main-nav-bar-wrapper'>
         <div className='main-nav-bar'>
-            Main Nav Bar
+            Explore Our Website
         </div>
 
         <nav>

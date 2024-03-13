@@ -19,10 +19,10 @@ function Services() {
                 <h1>Our Services</h1>
                 <span>Services are professional offerings provided by businesses to meet specific needs or solve problems for their customers. Services can range from your budject.</span>
             </div>
-            <div className='left-right-carousil-button'>
+            {/* <div className='left-right-carousil-button'>
                 <button className='button' id='left'> <WestRoundedIcon /></button>
                 <button className='button' id='right'> <EastRoundedIcon /></button>
-            </div>
+            </div> */}
         </div>
         <div className='services-section-carousil-container-2'>
             <InfiniteCarousil btn = {btn}/>

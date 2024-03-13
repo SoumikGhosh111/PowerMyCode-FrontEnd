@@ -10,13 +10,29 @@
     position: fixed;
     top: 50%;
     right: 0;
-    z-index: 20;
-    transform: translate(50%, -50%) rotate(-90deg);
+    z-index: 20;	
+    transform: translate(40%, -50%) rotate(-90deg);
     color: var(--black);
     display: flex;
     justify-content: center;
     align-items: flex-start;
     cursor: pointer;
+}
+
+.main-nav-bar::before{ 
+	content: "";
+	width: 0;
+	height: 100%;
+	position: absolute;
+	background-color: var(--green);
+	transform: translate(0);
+	z-index: -1;
+	transition: all 0.3s ease;
+	/* border-radius:30px; */
+
+}
+.main-nav-bar:hover::before{ 
+	width: 101%;
 }
 
 

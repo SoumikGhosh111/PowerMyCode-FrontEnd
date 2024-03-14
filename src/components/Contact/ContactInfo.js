@@ -16,16 +16,16 @@ function ContactInfo() {
         <div className='contact-section-texts-titles'>
           <h3>CONTACT WITH US</h3>
           <h1>LETS WORK TOGETHER?</h1>
-          <span>I have worls-class, flexible support via live chat, email and hone. I guarantee that you’ll be able to have any issue resolved within 24 hours.</span>
+          <span>I have world class, flexible support via live chat, email and phone. I guarantee that you’ll be able to have any issue resolved within 24 hours.</span>
         </div>
         <div className='contact-section-address-items'>
           <div className='logo-icn'><LocationOnIcon /></div>
-          <div className='address-text'>2nd Cross Road, Rajiv Gandhi Nagar Sector-7, HSR Layout <br /> Bangalore-560102</div>
+          <div className='address-text address'>2nd Cross Road, Rajiv Gandhi Nagar Sector-7, HSR Layout <br /> Bangalore-560102</div>
         </div>
 
         <div className='contact-section-address-items'>
           <div className='logo-icn'><LocalPhoneRoundedIcon /></div>
-          <div className='address-text'><a href='tel:+91 99080 78538'>+91 99080 78538</a></div>
+          <div className='address-text '><a href='tel:+91 99080 78538'>+91 99080 78538</a></div>
         </div>
 
         <div className='contact-section-address-items'>

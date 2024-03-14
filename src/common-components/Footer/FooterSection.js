@@ -27,6 +27,7 @@ function FooterSection() {
           </div>
         </div>
         <div className='hor-line'></div>
+        
         <div className='footer-body-wrapper'>
           <div className='footer-body'>
             <div className='footer-body-items'>

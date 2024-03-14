@@ -5,6 +5,48 @@
     z-index: -1;
     overflow: hidden;
 }
+.about-us-section-container{ 
+    width: 100%;
+    
+}
+.about-us-section-container span{ 
+    font-size: 18px;
+    color: var(--whiteish);
+}
+.about-us-section-container-topics{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    pointer-events: none;
+}
+
+
+
+.about-us-section-container-topics-items{ 
+    width: calc(100% / 3);
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.about-us-section-container-topics-items h1{ 
+    font-size: 70px !important;
+    margin: 0;
+    padding: 0;
+    -webkit-text-stroke: 2px var(--whiteish) ;
+    color: transparent !important;
+}
+.about-us-section-container-topics-items h2{ 
+    font-size: 40px !important;
+    margin: 0;
+    padding: 0;
+}
+.about-us-section-container-topics-items span{ 
+    font-size: 20px;
+}
 .about-us-information{ 
     width: fit-content;
     z-index: 1;
@@ -27,8 +69,9 @@
 
 
 
+
 .four-pillars{ 
-    width: 100%;
+    width: 60%;
     /* border: 1px solid green; */
     
 }

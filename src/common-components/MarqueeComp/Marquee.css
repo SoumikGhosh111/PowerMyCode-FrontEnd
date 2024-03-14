@@ -92,7 +92,7 @@
 }
 
 .marquee-images-header{ 
-    width: 20%;
+    width: 25%;
     height: 100%;
     display: flex; 
     justify-content: space-between;
@@ -110,6 +110,7 @@
     height: 100%;
     border: 2px solid transparent;
     background:var(--green);
+    /* backdrop-filter: blur(5px); */
     border-right-color: var(--whiteish);
     transform: rotate(30deg) scale(1.5) translate(50%);
     z-index: 1;
@@ -117,7 +118,7 @@
 
 }
 .marquee-images-body{ 
-    width: 80%;
+    width: 62%;
     height: 100%;
 
 }

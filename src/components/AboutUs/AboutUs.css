@@ -161,3 +161,71 @@
     }
 }
 
+
+
+
+
+
+
+
+/* media queries */
+
+@media screen and (orientation: portrait){ 
+    .four-pillars{ 
+        width: 100%;
+    }
+
+
+    .about-us-information h2{ 
+        font-size: 25px ;
+    }
+    .about-us-information h1{ 
+        font-size: 50px ;
+    }
+    .about-us-section-wrapper{ 
+        padding: 1rem 0.5rem;
+    }
+    .about-us-information{ 
+        width: 100%;
+
+    }
+    .about-us-section-container-topics{ 
+        gap: 1rem;
+    }
+    .about-us-section-container-topics-items{ 
+        align-items: center;
+    }
+    .about-us-section-container h1{
+        font-size: 50px;
+     }
+    .about-us-section-container-topics-items h1{ 
+        font-size: 30px !important;
+        -webkit-text-stroke-width: 1px; 
+    }
+    .about-us-information-text{ 
+        font-size: 18px; 
+    }
+
+  
+    .about-us-section-container-topics-items h2{ 
+        font-size: 20px !important;
+        text-align: center;
+       
+    }
+    .about-us-section-container-topics-items span{ 
+        font-size: 13px;
+        /* text-align: justify; */
+    }
+    .special-span{ 
+        font-size: 20px !important; 
+    }
+
+
+    .piller{ 
+        font-size: 15px;
+    }
+    .green-dot-piller{ 
+        width: 10px;
+        height: 10px;
+    }
+}

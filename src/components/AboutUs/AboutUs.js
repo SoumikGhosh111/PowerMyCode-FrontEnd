@@ -48,7 +48,7 @@ function AboutUs() {
         </div>
         <div className='about-us-section-container'>
           <h1 >What do we do</h1>
-          <span>Empowering Excellence, Research-driven, <br /> Industry-focused, Quality-assured Solutions</span>
+          <span className='special-span'>Empowering Excellence, Research-driven, <br /> Industry-focused, Quality-assured Solutions</span>
           <div className='about-us-section-container-topics'>
             <div className='about-us-section-container-topics-items'>
               <h1>01</h1>

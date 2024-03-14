@@ -15,13 +15,13 @@ function TeamMembers() {
         <div className='team-members-lsit'>
           <div className='team-member-item' data-item="CEO & Founder">
           </div>
-          <div className='member-name'>Arun Rachori</div>
+          <div className='member-name'>Arun Rachuri</div>
         </div>
 
         <div className='team-members-lsit'>
           <div className='team-member-item' data-item="Marketing Lead">
           </div>
-          <div className='member-name'>Abhishek Rachori</div>
+          <div className='member-name'>Abhishek Rachuri</div>
         </div>
 
         <div className='team-members-lsit'>

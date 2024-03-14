@@ -60,3 +60,11 @@
     color: var(--lightgrey);
     z-index: 10;
 }
+
+
+/* media query */
+@media screen and (orientation: portrait){ 
+    .team-member-item::after, .team-member-item::before{ 
+        font-size: 23px;
+    }
+}

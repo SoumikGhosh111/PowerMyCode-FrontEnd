@@ -4,7 +4,7 @@ import MarqueeLeftToRight from '../../common-components/MarqueeComp/MarqueeLeftT
 
 function TeamMembers() {
   return (
-    <div className='team-members-section-wrapper'>
+    <div className='team-members-section-wrapper' id='team-members'>
         {/* <div className='values-culture'>
           <span className='green-dot'><span className='beating'></span></span>
           <span className='values-culture-text'>Our Team Members</span>

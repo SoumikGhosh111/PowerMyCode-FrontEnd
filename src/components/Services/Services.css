@@ -48,3 +48,28 @@
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+/* media query */
+@media screen and (orientation: portrait){ 
+    .services-section-wrapper{ 
+        padding: 1rem 0rem;
+    }
+    .services-section-text-info{ 
+        width: 100%;
+    }
+    .services-section-text-info h1{ 
+        font-size: 30px;
+    }
+    .services-section-text-info span{ 
+        font-size: 15px;
+
+    }
+    .services-section-container-1{ 
+        /* width: 100%; */
+        padding: 0rem 1rem;
+            
+    }
+}

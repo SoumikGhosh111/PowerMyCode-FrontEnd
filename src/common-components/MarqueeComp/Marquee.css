@@ -108,7 +108,7 @@
 .marquee-images-header h1{ 
     font-size: 40px;
 }
-.marquee-images-header .ver-line{ 
+ .ver-line{ 
     width: 20px ;
     height: 100%;
     border: 2px solid transparent;
@@ -148,10 +148,51 @@
    z-index: -1;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* media query */
+/* left -> right marquee */
 @media screen and (orientation: portrait){ 
     .texts-slide-items-left-right{ 
         font-size: 20px;
+    }
+}
+
+
+
+/* images marquee */
+@media screen and (orientation: portrait){ 
+    .marquee-images-wrapper{ 
+        height: 100px;
+    }
+    .marquee-images-header{ 
+        width: 30%;
+    }
+    .marquee-images-header h1{ 
+        font-size: 20px;
+    }
+    .mrqee-images-body-items{ 
+        width: 80px;
+        height: 80px;
+        margin-top: 2rem;
+    }
+    .star{ 
+       display: none;
+    }
+    .ver-line{ 
+        width: 20px;
+        transform: rotate(30deg) scale(1.5) translate(120%);
     }
 }
 

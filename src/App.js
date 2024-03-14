@@ -3,7 +3,7 @@ import React, {useEffect, useState} from "react";
 import MouseFollower from "mouse-follower";
 import gsap from "gsap";
 import "./App.css"; 
-import FooterSection from "./components/Footer/FooterSection";
+import FooterSection from "./common-components/Footer/FooterSection";
 // import NavBar from "./components/NavBar/NavBar";
 import HomePage from "./pages/HomePage";
 import ProjectsPage from "./pages/ProjectsPage";

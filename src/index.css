@@ -32,6 +32,18 @@ html{
   --contact-form-body: #161a1e; 
   --contact-form-input: #252e2f; 
   --cursor-color: #06D889; 
+
+
+  --color-bg1: rgb(52, 0, 78);
+  --color-bg2: rgb(8, 23, 73);
+  --color1: 19, 113, 255;
+  --color2: 2, 74, 255;
+  --color3: 10, 220, 255;
+  --color4: 240, 50, 50;
+  --color5: 180, 180, 50;
+  --color-interactive: 140, 100, 255;
+  --circle-size: 80%;
+  --blending: hard-light;
 }
 ::selection{ 
   color: var(--black); 

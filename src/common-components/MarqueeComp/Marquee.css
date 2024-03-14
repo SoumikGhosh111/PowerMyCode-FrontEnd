@@ -39,6 +39,9 @@
 
 
 
+
+
+
 /* Left to right */
 
 .texts-left-right{ 
@@ -143,5 +146,12 @@
     font-weight: 700;
    color: var(--green);
    z-index: -1;
+}
+
+/* media query */
+@media screen and (orientation: portrait){ 
+    .texts-slide-items-left-right{ 
+        font-size: 20px;
+    }
 }
 

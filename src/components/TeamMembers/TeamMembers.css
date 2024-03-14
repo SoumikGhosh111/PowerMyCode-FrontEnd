@@ -67,4 +67,7 @@
     .team-member-item::after, .team-member-item::before{ 
         font-size: 23px;
     }
+    .team-member-item{ 
+        height: 50px;
+    }
 }

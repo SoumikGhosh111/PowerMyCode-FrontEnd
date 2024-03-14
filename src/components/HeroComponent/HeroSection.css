@@ -299,3 +299,29 @@
       opacity: 0.7;
     }
   }
+
+
+
+
+
+
+
+  /* media query */
+  @media screen and (orientation: portrait){ 
+    .text-hero{ 
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .text-hero img{
+      width: 300px;
+      height: 300px;
+     }
+     .text-hero p{ 
+      font-size: 12.5px;
+     }
+
+
+  }

@@ -169,7 +169,13 @@
     }
 }
 
+/* right -> left marquee */
 
+@media screen and (orientation: portrait){ 
+    .texts-slide-items-right-left{ 
+        font-size: 20px;
+    }
+}
 
 /* images marquee */
 @media screen and (orientation: portrait){ 

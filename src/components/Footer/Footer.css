@@ -13,23 +13,111 @@
     border-radius: 20px;
     padding: 1rem 2rem;
 }
-
-.usefull-links{ 
-    width: 100%;
+/* footer header */
+.footer-header{ 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: fit-content;
+    width: 100%;
 }
-.usefull-links-items{
-    /* width: 23%; */
-    height: 100%; 
+.contact-number{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
-.usefull-links-items a{ 
-    text-decoration: none;
-    color: var(--whiteish);
-    transition: all 0.3s ease;
+.contact-number-number{ 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
 }
-.usefull-links-items a:hover{ 
+
+.contact-number-number{ 
+    font-size: 10px;
+}
+.ph-logo{ 
     color: var(--green);
 }
+.contact-number-number a{ 
+    color: var(--whiteish);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.contact-number-number a:hover{ 
+    color: var(--green);
+}
+
+
+
+
+/* footer body */
+.footer-body{ 
+    width: 100%;
+    border: 1px solid rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* padding: 3rem 0rem; */
+
+}
+.footer-body-items{ 
+    width: calc(100%/5);
+    border: 1px solid red;
+}
+
+.footer-body-items h2{ 
+
+}
+.footer-body-items-1 { 
+    margin-bottom: 3rem;
+}
+.footer-body-items-1 a{ 
+    color: var(--whiteish);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-body-items-1-logo{ 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.footer-body-items-1 a:hover{ 
+    color: var(--green);
+}
+.footer-body-items-1-logo h2{ 
+    margin: 0;
+    padding: 0;
+}
+.new-updates{ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-updates input{ 
+    height: 40px;
+    width: 75%; 
+    padding: 0rem 1rem;
+    border: none;
+}
+.new-updates input:focus{
+    outline: none;
+}
+.new-updates button{ 
+    width: 20%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+
+
+

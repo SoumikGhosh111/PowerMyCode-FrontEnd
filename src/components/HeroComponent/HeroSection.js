@@ -11,12 +11,12 @@ function HeroSection() {
   const [number, setNumber] = useState(0)
 
 
-  useEffect(() => {
-    const canvas = canvasRef.current;
-    if (!canvas) return;
-    const app = new Application(canvas);
-    app.load('https://prod.spline.design/TxxhcqLWtf8ULg0b/scene.splinecode');
-  }, []);
+  // useEffect(() => {
+  //   const canvas = canvasRef.current;
+  //   if (!canvas) return;
+  //   const app = new Application(canvas);
+  //   app.load('https://prod.spline.design/TxxhcqLWtf8ULg0b/scene.splinecode');
+  // }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -70,7 +70,7 @@ function HeroSection() {
         <div className='blur-bgs'></div>
         
       <div className='green-blob'></div> */}
-      <canvas ref={canvasRef} id='canvas3d' /> 
+      {/* <canvas ref={canvasRef} id='canvas3d' />  */}
       </div>
 
       <div className='gradient-blur-background-blue'></div>

@@ -88,8 +88,6 @@ function ContactInfo() {
           <div className='form-submit-button'>
             <button>
              
-              {/* <div className='contact-form-submit-button-span'>Submit1</div> */}
-              {/* <div className='contact-form-button-bg'></div> */}
             </button>
           </div>
         </form>
